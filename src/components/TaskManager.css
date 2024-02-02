@@ -1,0 +1,48 @@
+.task-manager-container {
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+table{
+  display: block;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(60, 52, 52, 0.346);
+}
+
+table tr{
+  display: flex;
+  width: 98%;
+  justify-content:space-between;
+  margin: auto;
+}
+
+table tr th{
+  width: 33%;
+}
+
+table tr td{
+  width: 33%;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  margin: 1%;
+}
+
+.input-row td input{
+  width: 100%;
+}
+
+button{
+  width: 98%;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  background-color: blue;
+  outline: none;
+  border: none;
+  border-radius: 5%;
+  height: 30px;
+}
+
