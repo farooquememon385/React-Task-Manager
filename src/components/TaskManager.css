@@ -4,17 +4,22 @@
   font-family: 'Arial', sans-serif;
 }
 
+.task-manager-container h1{
+  color: blue;
+}
+
 table{
   display: block;
   width: 90%;
   margin: auto;
-  background-color: rgba(60, 52, 52, 0.346);
+  background-color: darkgrey;
 }
 
 table tr{
   display: flex;
   width: 98%;
   justify-content:space-between;
+  align-items: center;
   margin: auto;
 }
 
@@ -54,7 +59,7 @@ button{
   background-color: blue;
   outline: none;
   border: 2px solid  blue;
-  border-radius: 5%;
+  border-radius: 2%;
   cursor: pointer;
 
 }
