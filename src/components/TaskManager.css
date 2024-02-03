@@ -18,8 +18,15 @@ table tr{
   margin: auto;
 }
 
-table tr th{
+.heading-row{
+  width: 100%;
+}
+
+.heading-row th{
   width: 33%;
+  color: blue;
+  padding: 5px;
+  background-color: greenyellow;
 }
 
 table tr td{
@@ -30,19 +37,30 @@ table tr td{
   margin: 1%;
 }
 
+.input-row{
+  border-bottom: 2px solid greenyellow;
+  padding: 1%;
+}
+
 .input-row td input{
   width: 100%;
 }
 
 button{
-  width: 98%;
+  width: 96%;
   margin: 1%;
   padding: 1%;
   color: white;
   background-color: blue;
   outline: none;
-  border: none;
+  border: 2px solid  blue;
   border-radius: 5%;
-  height: 30px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  color: blue;
+  background-color: white;
 }
 

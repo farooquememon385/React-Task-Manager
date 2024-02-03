@@ -52,7 +52,7 @@ const TaskManager = () => {
     <div className="task-manager-container">
       <h1>Task Manager</h1>
       <table>
-        <tr>
+        <tr className='heading-row'>
           <th>Task</th>
           <th>Due Date</th>
           <th>Action</th>
