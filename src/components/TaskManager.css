@@ -13,6 +13,7 @@ table{
   width: 90%;
   margin: auto;
   background-color: darkgrey;
+  border: 1px solid black;
 }
 
 table tr{
@@ -49,6 +50,9 @@ table tr td{
 
 .input-row td input{
   width: 100%;
+  border: 2px solid blue;
+  outline: none;
+  padding: 1%;
 }
 
 button{
